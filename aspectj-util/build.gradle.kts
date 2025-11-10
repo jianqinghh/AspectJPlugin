@@ -23,7 +23,7 @@ gradlePlugin {
         // 使用 `create` 方法并指定一个内部标识符（可自定义）
         create("androidAspectJPlugin") {
             // 用户应用插件时使用的ID
-            id = "io.github.jianqinghh.android-aspectj"
+            id = "com.github.jianqinghh.AspectJPlugin"
             // 插件实现类的全限定名
             implementationClass = "com.jaq.aspectj.AspectJPlugin"
         }
@@ -31,8 +31,8 @@ gradlePlugin {
 }
 
 
-group = "io.github.jianqinghh"
-version = "1.0.2"
+group = "com.github.jianqinghh"
+version = "1.0.3"
 
 
 val githubPublishName = project.findProperty("github.publish.name")
